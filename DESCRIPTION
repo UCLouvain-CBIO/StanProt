@@ -1,0 +1,59 @@
+Package: StanProt
+Title: Standardisation of Bayesian Modelling for Proteomics
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Philippe",
+             family = "Hauchamps",
+             role = c("aut", "cre"),
+             email = "philippe.hauchamps@student.uclouvain.be",
+             comment = c(ORCID = "YOUR-ORCID-ID")),
+      person(given = "Laurent", family = "Gatto",
+             email = "laurent.gatto@uclouvain.be",
+             role = "aut",
+             comment = c(ORCID = "0000-0002-1520-2268")))
+Description: This package proposes some S4 classes to standardise the
+    access, manipulation and interpret of Bayesian models generated
+    with Stan. The use case is the analysis of quantitative
+    proteomics data.
+Imports:
+    SummarizedExperiment,
+    BiocParallel,
+    methods,
+    dplyr,
+    stringr,
+    magrittr,
+    reshape2,
+    tibble,
+    ggplot2,
+    patchwork,
+    KernSmooth,
+    lme4,
+    extraDistr,
+    EnvStats,
+    rstan (>= 2.21.2)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Collate: 
+    'ProtModelSpecPars.R'
+    'ProtModelFit.R'
+    'ProtModel.R'
+    'ProtModelFitMFVB.R'
+    'ProtModelFitStan.R'
+    'stanfitDiagnostics.R'
+    'ProtModelFitStanDiagnostics.R'
+    'ProtModelPlots.R'
+    'makeModel.R'
+    'nuDistribution.R'
+    'optimizeProteinRun.R'
+    'runModel.R'
+    'runProtModelEngine.ProtModelFitMFVB.R'
+    'runProtModelEngine.ProtModelFitStan.R'
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
