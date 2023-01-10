@@ -1,0 +1,30 @@
+StanProt Licensing
+============================================
+
+This file attempts to include all licenses that apply within StanProt (this program) source tree, in particular any that are supposed to be exposed to the end user for credit requirements for instance. 
+
+StanProt is a R package that provides Bayesian models for Label Free MS based proteomics data.
+It allows a.o. to model the data missingness process simultaneously to the MS intensities.
+
+Copyright (C) <2021> <Université catholique de Louvain (UCLouvain), Belgique>
+The list of the contributors to the development of StanProt is given in the DESCRIPTION file.
+
+
+StanProt General
+-----------------------------------------
+
+This program (StanProt) is free software: 
+you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details (<http://www.gnu.org/licenses/>).
+
+*************************************************************************
+
+The documentation for this program is under a creative commons attribution share-alike
+4.0 license.  http://creativecommons.org/licenses/by-sa/4.0/
+
+
+
