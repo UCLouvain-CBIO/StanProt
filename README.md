@@ -41,3 +41,7 @@ the next step is to install the `StanProt` package from the github repo:
 ```
 devtools::install_github("https://github.com/lgatto/StanProt")
 ```
+
+## Examples
+
+See R scripts in `examples` directory.
