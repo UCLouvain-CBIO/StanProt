@@ -39,7 +39,7 @@ As soon as this is done, and the installation is verified by running a test mode
 the next step is to install the `StanProt` package from the github repo:
 
 ```
-devtools::install_github("https://github.com/lgatto/StanProt")
+devtools::install_github("https://github.com/UCLouvain-CBIO/StanProt")
 ```
 
 ## Examples
